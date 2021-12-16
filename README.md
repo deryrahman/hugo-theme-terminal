@@ -151,6 +151,9 @@ paginate = 5
   # it's set to `true` by default
   # oneHeadingSize = false
 
+  # author avatar url
+  authorAvatarURL = "https://iptc.org/wp-content/uploads/2018/05/avatar-anonymous-300x300.png"
+
 
 [params.twitter]
   # set Twitter handles for Twitter cards
