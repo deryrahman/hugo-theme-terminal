@@ -2,6 +2,11 @@
   float: left;
   margin: 0 -60px 0 0;
   padding: 20px 0;
+  @media (--tablet) {
+    float: none;
+    margin: auto;
+    margin-bottom: -100px;
+  }
 }
 
 .avatar-img {
@@ -9,10 +14,17 @@
   border-radius: 50%;
   margin: 0;
   border: 1px solid var(--accent);
+  @media (--tablet) {
+    margin: 0 auto;
+  }
 }
 
 .intro-content {
   padding-left: 80px !important;
+  @media (--tablet) {
+    padding-left: 20px !important;
+    padding-top: 80px !important;
+  }
 }
 
 .index-content {
