@@ -12,7 +12,7 @@
 }
 
 .intro-content {
-  padding-left: 80px;
+  padding-left: 80px !important;
 }
 
 .index-content {

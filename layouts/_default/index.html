@@ -4,7 +4,7 @@
       <div class="avatar-pic">
         <img class="avatar-img" width="200" height="200" src="{{ .Site.Params.authorAvatarURL }}"/>
       </div>
-      <div class="intro-content {{ if .Params.framed -}}framed{{- end -}}">
+      <div class="intro-content content {{ if .Params.framed -}}framed{{- end -}}">
         {{ .Content }}
       </div>
     </div>
