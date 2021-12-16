@@ -1,7 +1,12 @@
 {{ define "main" }}
   {{ if .Content }}
-    <div class="index-content {{ if .Params.framed -}}framed{{- end -}}">
-      {{ .Content }}
+    <div class="index-content">
+      <div class="avatar-pic">
+        <img class="avatar-img" width="200" height="200" src="{{ .Site.Params.authorAvatarURL }}"/>
+      </div>
+      <div class="intro-content {{ if .Params.framed -}}framed{{- end -}}">
+        {{ .Content }}
+      </div>
     </div>
   {{ end }}
   <div class="posts">
